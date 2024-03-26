@@ -19,8 +19,9 @@ span{
     
 }
 .btn{
-    padding: 9px;
-    background-color: rgb(83, 55, 241);
+    cursor: pointer;
+    padding: 10px;
+    background-color: #387ed1;
     color: white;
-    border-radius: 14px;
+    border-radius: 3px;
 }
