@@ -1,0 +1,26 @@
+.image{
+    width: 90vh;
+    height: 50vh;
+}
+.logo{
+    width: 200px;
+}
+.top{
+    display: flex;
+flex-direction: row;
+justify-content: space-between;
+
+}
+
+span{
+
+    margin-left:20px;
+    padding:5px;
+    
+}
+.btn{
+    padding: 9px;
+    background-color: rgb(83, 55, 241);
+    color: white;
+    border-radius: 14px;
+}

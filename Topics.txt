@@ -1,0 +1,7 @@
+Harkirath Singh Cohort 
+
+Day 1: 
+Learnt About basics of HTML and CSS
+HTNL tags and  Attributes 
+Tags: to create elements on the webpage 
+Attributes: To control the elements behavior 
