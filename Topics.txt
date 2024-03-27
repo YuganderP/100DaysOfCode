@@ -5,3 +5,17 @@ Learnt About basics of HTML and CSS
 HTNL tags and  Attributes 
 Tags: to create elements on the webpage 
 Attributes: To control the elements behavior 
+Css: Basics
+________________________________________________________________________
+
+Day 2:
+Js Foundatation: 
+Interpreted vs Compiled 
+Dynamic vs static languages 
+HOF
+Call backs
+Json parse, JSON stringity
+Async vs Await 
+Set Timeout vs Time interval
+Promises
+

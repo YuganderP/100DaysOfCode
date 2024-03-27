@@ -1,0 +1,26 @@
+#100DaysOfCode 
+Learning from @kirat_twcohort 2.0:
+
+Day 1: 
+Learnt About basics of HTML and CSS
+HTNL tags and  Attributes 
+Tags: to create elements on the webpage 
+Attributes: To control the elements behavior 
+Css-Basics, selectors, flexbox.
+----------------------------------------------------------
+Day 2:
+learnt about : 
+Interpreted vs compiled languages
+Static vs Dynamic languages
+Single Threaded nature of js (context switching)
+Js variables : let , var , const 
+Datatypes 
+conditional statements 
+Loops
+functions 
+function as value 
+Call backs 
+HOF
+setTimeout, Set TimeInterval
+Synchronouc vs Asynchronous 
+Map Filter , Reduce, sort 
