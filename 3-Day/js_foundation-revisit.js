@@ -9,6 +9,8 @@ function sample (){
 }
 
 
+
+
 function prints(data){
     console.log(data)
 }

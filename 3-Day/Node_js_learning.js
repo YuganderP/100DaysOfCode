@@ -1,0 +1,1 @@
+//  javascript is based on ecma script.

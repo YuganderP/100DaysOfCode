@@ -8,6 +8,8 @@ Tags: to create elements on the webpage
 Attributes: To control the elements behavior 
 Css-Basics, selectors, flexbox.
 ----------------------------------------------------------
+#100DaysOfCode 
+Learning from @kirat_twcohort 2.0:
 Day 2:
 learnt about : 
 Interpreted vs compiled languages
@@ -24,3 +26,22 @@ HOF
 setTimeout, Set TimeInterval
 Synchronouc vs Asynchronous 
 Map Filter , Reduce, sort 
+
+----------------------------------------------------------
+#100DaysOfCode 
+Learning from @kirat_twcohort 2.0:
+Day 3:
+learnt about :
+Call stack, Call back queue, Web apis
+Node.js runtime, HTTP 
+Js Engines: v8, SpiderMonkey
+Creating an HTTP server
+HTTP Protocol,Address, Route,Header,Body,Method
+status codes:
+200->ok
+404->Page / route not Found
+403->Authentication issue
+500-> Internal server error
+using express for creating server
+bash commands
+map,filter,reduce,git

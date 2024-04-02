@@ -1,0 +1,60 @@
+Bash : command line interface to communicate with the os
+
+
+pwd : present working directory 
+ls : list files / dirs 
+ls <dir name> :
+ls -l : detailed info / permissions owner size name 
+ls -R : gives details about sub directory 
+ls -lt : gives the time stamp 
+ls -la : list hidden files has well 
+ls -lRa : gives hidden files in the sub dir 
+
+
+ls -lr | grep .json
+
+cd : change directory 
+cat file name 
+
+cat >> newfile.txt  sample random text
+
+mkdir : make directory 
+rmdir: remove dir 
+
+mkdir test && cd test | create and move to that directory 
+
+mkdir -p frontend/img  | create recurseive directories 
+
+mv filename  changeFilePath 
+
+cp -r : recursive copy  
+
+
+chmod <who user / group> permission 
+
+chmod u+x filename.sh
+chmod g+x foldername ( g here indicates group )
+
+
+echo  "hello world" 
+
+head <filename>
+tail <filename>
+
+head -20 <filename>
+tail -20 <filename>
+
+wc <filename>  word count 
+
+grep (find occurance of word)
+
+grep "one" newfile.txt | wc -l  # gives the occurance of the word
+
+grep -c "one" newfile.txt # tells number of lines where the phrase occured
+
+grep -h "one" newfile.txt # give where the phrase has occured 
+
+grep -hin "one" sample.txt 
+
+grep -hinw "one" sample.txt  // match the whole word
+

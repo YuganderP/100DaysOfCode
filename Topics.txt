@@ -19,3 +19,18 @@ Async vs Await
 Set Timeout vs Time interval
 Promises
 
+________________________________________________________________________
+Day 3: 
+Call stack, Call back queue, Web apis
+Node.js runtime, HTTP 
+Js Engines: v8, SpiderMonkey
+Creating an HTTP server
+HTTP Protocol,Address, Route,Header,Body,Method
+status codes:
+200->ok
+404->Page / route not Found
+403->Authentication issue
+500-> Internal server error
+using express for creating server
+bash commands
+map,filter,reduce,git
