@@ -34,3 +34,18 @@ status codes:
 using express for creating server
 bash commands
 map,filter,reduce,git
+
+________________________________________________________________________
+Day 4: 
+Javascript foundations Revision 
+Express basics Revision 
+Advance Express Intro
+Database intro (so far we have use in memory data)
+SQL vs No SQL 
+Mongo db 
+PostGres Account creation 
+Intro Into middlewares, global catches, zod (hard backend stuff)
+Zod Library (for input validations checks)
+Authentication introduction
+
+
