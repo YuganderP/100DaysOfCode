@@ -24,4 +24,5 @@ const details = {
     password:"12341234"
 }
 
-sample2(details)
+sample2(details
+    )
