@@ -47,5 +47,12 @@ PostGres Account creation
 Intro Into middlewares, global catches, zod (hard backend stuff)
 Zod Library (for input validations checks)
 Authentication introduction
-
-
+________________________________________________________________________
+Day 5:
+Fetch, Authentication, Database 
+Fetch: fetching data from an apis
+Authentication:
+hashing
+encryption
+Json web tokens(JWT)
+local storage
