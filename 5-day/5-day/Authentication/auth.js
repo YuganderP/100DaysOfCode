@@ -28,3 +28,56 @@
 // The token is stored in the brower's local storage.
 // localStorage.set()  : to store the password
 // localStorage.get(): to get the password.
+
+
+
+// JWT notes:
+// json web tokens are used for authorization but not for Authentication
+// it works using session json web token
+// Traditional proces 
+// ___________________________________
+// user id and password -> back end 
+// backend ------session id ---> client 
+// client ----session id ---> server
+// sever ---- response -----> client
+// 
+// JWT process 
+
+// user id and password ---> backend 
+// At the backend jwt is created using secret password 
+// and jwt token is sent to the client 
+// the jwt token is stored using session / cookies storage 
+// and when ever the client needs a response the jwt is sent and is decoded and verified 
+// and the response is sent to the client 
+
+
+
+
+
+
+
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 
+// 

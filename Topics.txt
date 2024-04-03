@@ -56,3 +56,14 @@ hashing
 encryption
 Json web tokens(JWT)
 local storage
+Databases:
+Multiple types of databases:
+Graph db
+vector db
+Sql db
+noSql db
+
+Mongodb:
+no schema is required 
+mongo db lets you create tables (collection)
+each table it lets you dump JSON data
