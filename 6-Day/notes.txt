@@ -1,0 +1,5 @@
+Databases: 
+Relational and Non Relational
+Mongodb : non relational Database 
+No schema is required 
+Stored in document format 
