@@ -30,9 +30,24 @@ Element.setAttribute("attribute","value")
 // element nodes, attribute nodes ,text noted 
 // elements can be accessed by index number  
 
+// Adding / deleting elements:
 
+// document.createElement(element)
+// document.removeChild()
+// document.appendChild()
+// 
+// Every docuement is a document node, Every html element is an element node 
+// The text inside html elements are text nodes 
+// All comments are comment nodes 
 
 //
+// node.childNodes
+Node.firstChild
+Node.lastChild
+Node.parentNode
+Node.nextSibling
+Node.previousSibling
+
 // 
 // 
 // 
