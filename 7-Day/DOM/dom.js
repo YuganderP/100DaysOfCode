@@ -47,20 +47,24 @@ Node.lastChild
 Node.parentNode
 Node.nextSibling
 Node.previousSibling
-
+// Javascript events;
+{/* <h2 onCLick="this.innerHtml='Opps'">
+</h2> */}
+// 
+// mouseoverme 
+// mousedown
 // 
 // 
+// onload vs onunload function 
 // 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
-// 
+// EventListeners
+// addEventListener("click",function)
+//There are 2 ways of event propogation : event bubbling and event capturing  
+//Event propogation is the way of definig the element order ehen an event occurs if you have 
+// a p inside a div and user click on the p which elements event should handled first
+//bubbling: innter most element event handled first
+// capturing: outer most element should be handled first 
+// addEventListener(event,function,useCapture)
 // 
 // 
 // 
