@@ -64,7 +64,7 @@ Node.previousSibling
 // a p inside a div and user click on the p which elements event should handled first
 //bubbling: innter most element event handled first
 // capturing: outer most element should be handled first 
-// addEventListener(event,function,useCapture)
+// addEventListener(event,function,useCapture / ture or false)
 // 
 // 
 // 
