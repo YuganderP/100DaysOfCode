@@ -1,2 +1,32 @@
 DOM : Document Object model : 
-Code Javascript + Browser Javascript 
+Emca script  Javascript + Browser Javascript 
+
+
+
+dynamic : changing the elements on the website once the webiste is loaded
+
+Dom facilitates creating dynamic web pages 
+
+const element =document.getElementById("sample")
+
+element.innerHtml=" "
+element.innerText=" "
+
+to access input element value 
+
+
+element.value 
+
+
+
+debouncing concept: Amazon serach bar requests 
+
+let timeout
+
+function debounce(){
+    clearTimeout(timeout)
+    timeput = setTimeout(()=>{
+        making the request 
+
+    },100)
+}
