@@ -1,0 +1,15 @@
+to Create a new react app
+
+# npx create-react-app <filename>
+
+to run
+
+#num start
+
+
+using vite : 
+
+vite:
+vite is a build tool that aims to provide faster and leaner devlopment experience 
+
+#npm create vite@latest
