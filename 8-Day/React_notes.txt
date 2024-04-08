@@ -13,3 +13,8 @@ vite:
 vite is a build tool that aims to provide faster and leaner devlopment experience 
 
 #npm create vite@latest
+
+to run the react app
+
+
+# npm run dev 

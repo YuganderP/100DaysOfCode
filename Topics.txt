@@ -67,3 +67,23 @@ Mongodb:
 no schema is required 
 mongo db lets you create tables (collection)
 each table it lets you dump JSON data
+
+
+Day -6 
+________________________________________________________________________
+Database / jWT Ppractice 
+
+
+Day -7 
+________________________________________________________________________
+DOM / jWT Ppractice 
+
+Day -8
+________________________________________________________________________
+Create a sample todo app using html dom manupulation
+React foundation 
+creating a react project using vite 
+
+Day -9 
+________________________________________________________________________
+mongo db database practice and assgiments 
