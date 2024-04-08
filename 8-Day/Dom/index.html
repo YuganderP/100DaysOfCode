@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample DOM TO-DO App</title>
+    <script>
+        let id=0;
+        
+        function addTodo(){
+            const Title=document.getElementById("Title").value
+            const Description=document.getElementById("Description").value
+            id++;
+            let element= document.getElementById("container")
+           let a = addElement(Title,Description,id)
+           element.appendChild(a)
+        }
+function removeElement(id){
+    let element = document.getElementById(id)
+    if(element.innerText=="Mark As complete"){
+        element.innerText=" "
+    }else element.innerText="Mark As complete"
+}
+function addElement(title,description,id){
+const child=document.createElement("div")
+const grandchild=document.createElement("div")
+grandchild.innerText=title
+const grandChildTwo=document.createElement("div")
+grandChildTwo.innerText=description
+const addButton=document.createElement("button")
+addButton.setAttribute("id",id)
+addButton.setAttribute("onclick",`removeElement(${id})`)
+addButton.innerText="Mark As complete"
+child.appendChild(grandchild)
+child.appendChild(grandChildTwo)
+child.appendChild(addButton)
+return child
+}
+
+
+    </script>
+    <style>
+        .todoEnter{
+            border:2px solid black;
+            width: 20vw;
+            padding: 2vw;
+        }
+    </style>
+</head>
+<body>
+    <div class="todoEnter">
+        <div>
+            <label for="Title">Title</label>
+        <input name="Title" id="Title" type="text">
+        </div>
+        <div><label for="Description">Description</label>
+            <input name="Description" id="Description" type="text">
+        </div>
+        <br>
+        <Button onclick="addTodo()"  class="addItem">Add</Button>
+    </div>
+    <div id="container">
+
+    </div>
+<!-- state : very long object which contains the structure of the application -->
+</body>
+</html>
