@@ -10,7 +10,7 @@ const PORT = 3000;
 app.use(bodyParser.json())
 app.use("/admin",adminRouter)
 app.use("/user",userRouter)
-
+ 
 app.listen(PORT,()=>{
     console.log("The server has started working ")
 })
