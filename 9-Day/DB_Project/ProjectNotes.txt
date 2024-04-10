@@ -1,0 +1,15 @@
+
+Create the following folders
+
+Routes
+Middleware
+DB
+
+
+#1
+In main index file set up the initial server , set up the routes and PORT
+
+#2
+setup the routes
+
+
