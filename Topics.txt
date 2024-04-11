@@ -89,4 +89,25 @@ ________________________________________________________________________
 mongo db database practice and assgiments 
 Database CRUD operations 
 
+Day -10 
+________________________________________________________________________
+React Foundations 
 
+3 important components :
+
+Components 
+State 
+Re-rendering:
+
+The creators of the frontend framework have divided the webpage in to 2 components 
+
+State :
+ Represent the dynamic things in your app 
+
+ Component: How a dom element should render given a state  
+
+when the state changes the react re-renders the page 
+
+State + how the components are laid + how the components are linked with state 
+
+when the state changes the page re-renders
