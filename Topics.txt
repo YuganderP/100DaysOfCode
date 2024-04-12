@@ -111,3 +111,7 @@ when the state changes the react re-renders the page
 State + how the components are laid + how the components are linked with state 
 
 when the state changes the page re-renders
+
+// jsx file: a file where u can write both js and xml
+
+main.jsx file: 
