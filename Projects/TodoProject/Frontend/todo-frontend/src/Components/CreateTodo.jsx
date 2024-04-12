@@ -1,11 +1,13 @@
 import React from 'react'
-function CreateTodo(){
-
+export function CreateTodo(){
+    
     return <div>
-        <input placeholder="title "type="text" id="title"></input>
+
+        <input style={{padding:10,margin:10}} placeholder="title "type="text" id="title"></input>
         <br />
-        <input placeholder="desciption "type="text" id ="desciption" />
+        <input style={{padding:10, margin:10}} placeholder="desciption "type="text" id ="desciption" />
         <br />
         <button>Add a todo</button>
     </div>
 }
+
