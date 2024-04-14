@@ -1,0 +1,32 @@
+React Returns:
+In react we can only return only single element 
+The single top level element can contain multiple child siblings 
+The react component cannot return multiple siblings
+
+Reason: 
+To make it easy to do reconcilation
+reconcilation:The process of react figuring out what changes need to be made to DOM
+as the application functions
+ 
+ 
+React Fragment 
+<> </>
+// 
+<React.Fragment> <React.Fragment />
+
+__________________________________________
+
+Re-Reandering in react :
+
+install React dev tools.
+
+React -> Creates dynamic websites;
+
+When the state changes the component dependent on the state changes: Re-Reander
+We need make sure that the re-renders are minimized;
+
+
+
+React hooks : are the functions introduced that allow 
+React functional components to use state and other react features without 
+writing classes 

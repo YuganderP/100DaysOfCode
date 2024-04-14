@@ -115,3 +115,12 @@ when the state changes the page re-renders
 // jsx file: a file where u can write both js and xml
 
 main.jsx file: 
+
+
+
+Day -11 
+________________________________________________________________________
+practiced to React state passing 
+Topics covered:
+
+React Returns, re-rendering, key, wrapper Components, useEffect, use Memo, useCallback, useRef
