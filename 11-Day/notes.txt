@@ -30,3 +30,16 @@ We need make sure that the re-renders are minimized;
 React hooks : are the functions introduced that allow 
 React functional components to use state and other react features without 
 writing classes 
+
+
+using unique for the components :
+
+if we done use key to the components when ever the order of the data is changed 
+the react doesn't know that and I won't be able to rearrange them 
+
+
+React memo: to prevent re-rendering 
+
+Wrapper components 
+
+useEffect Hook
