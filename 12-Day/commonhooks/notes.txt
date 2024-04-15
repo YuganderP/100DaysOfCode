@@ -1,0 +1,34 @@
+common hooks: 
+use effect,usecallback, useMemo, custom hooks,
+Prop drilling
+
+side effects:
+in react we write many functions, the functions which perform other things
+other than rendering action are called side effects
+
+set interval, fetch
+
+hooks: 
+Previously we used to have react class based components and have access to react lifecycle methods.
+to give us access to the life cycle methods while writing functional components we use hooks. 
+example: componnets has mounted, updated. 
+
+commanly used hooks:
+useState
+useEffect
+usecallback
+useMemouseRef
+useContext
+
+useState: for state variable management
+
+useEffect: 
+it allows you to perform side effects in function components 
+
+useeffect ~ serves same purpose as componentDidmount(),ComponentDidUpdate(),ComponentWillUnmound()
+
+use effect( ()=>{},[dependencies array])
+
+dependencies array should contain state variables
+
+
