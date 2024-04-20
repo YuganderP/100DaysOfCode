@@ -38,7 +38,12 @@ if we done use key to the components when ever the order of the data is changed
 the react doesn't know that and I won't be able to rearrange them 
 
 
-React memo: to prevent re-rendering 
+React memo: 
+Higher order Component 
+memoized the rendered output of a component preventing unnecessary re-renders
+when the component's props haven't been changed.
+it caches the rendered output of the component
+
 
 Wrapper components 
 
