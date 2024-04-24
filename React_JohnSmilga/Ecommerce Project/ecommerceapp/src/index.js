@@ -1,13 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import {books} from "./data"
+import Container from './Container'
 function Sample(){
-
+{
+  
+}
     return(
         <>
-        
-        <h1>
-            Hello world
-        </h1>
+        <Container data={books} />
         </>
     )
 }
