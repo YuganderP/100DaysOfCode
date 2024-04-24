@@ -1,0 +1,33 @@
+useMemo:
+
+We use useMemo hook to memoize,we can optimize the performace by memoizing the result of the expensive computations. Essentially it caches the result of a funtion so that if the function is called again with the same arguments, React can retun cached result instead of recalculating it.
+
+
+const result = useMemo(()=>{
+return a*b;
+
+},[ dependencies])
+
+useCallback : we use this hook to memoize the callback functions.it returns a version of the callback function that only changes if one of the dependencies changed. This can help optimize performance by preventing unnecessary re-renders of the components that rely on the callback function as props 
+
+
+const handleClick = useCallback( ()=>{
+
+setState(state+1);
+
+},[state]
+)
+
+
+the function is executed only when the state dependency is changed.
+
+
+
+The use of callback hook ensures that the event handlers maintain the referential equality across renders 
+
+
+whenever   the function is passed to an element as a prop. the memory reference of it won't be the same, after the re-rendering so  the react treats it as a new prop and the function gets executed again. hence to prevent that we use usecallback 
+
+
+
+

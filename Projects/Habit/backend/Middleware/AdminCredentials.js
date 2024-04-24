@@ -9,7 +9,7 @@ const Admin = z.object({
     username:z.string().email(),
     password:z.string()
 })
-console.log(req.body)
+
 const data =Admin.safeParse(req.body)
 console.log(data)
 if(data.success){

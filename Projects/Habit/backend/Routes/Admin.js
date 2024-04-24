@@ -8,7 +8,10 @@ module.exports = router
 router.use(AdminCredentialsCheck)
 
 router.post("/signup",(req,res)=>{
- admin.create(data).then((valute)=>{
+ admin.create({
+  username:req.body.username,
+  password:req.body.password
+ }).then((value)=>{
     res.status(200).send("New user has bbeen created")
  }).catch((error)=>{
    console.log("error")
