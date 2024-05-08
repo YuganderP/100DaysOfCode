@@ -1,0 +1,31 @@
+We usecontext api not to optimize the rendering but to make the syntax look good and prevent prop drilling. 
+
+
+State Management: 
+it is the cleaner way to store the state of a the application. 
+it lets you to teleport the state variable. 
+
+State logic is different from the component logic. 
+
+Recoil is one of the state management libraries. 
+other state management libraries: 
+Zustand and redux. 
+The state management libraries lets you to divide your whole project into 2 components 
+State and components 
+
+Recoil has an concept of an atom. 
+an atom can be defined outside the component and can be teleported to any component. 
+
+
+steps:
+
+Creating an atom:
+
+atom ---------------------> simillar to useState ( which lets you create a the state variable)
+
+create a atom file in src/store/atoms folder 
+
+atom is defined outside the component tree. 
+
+only components which are using the atoms are re-rendered. 
+
