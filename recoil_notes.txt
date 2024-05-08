@@ -23,6 +23,7 @@ Creating an atom:
 
 atom ---------------------> simillar to useState ( which lets you create a the state variable)
 
+create a atom file in src/store/atoms folder 
 
 atom is defined outside the component tree. 
 

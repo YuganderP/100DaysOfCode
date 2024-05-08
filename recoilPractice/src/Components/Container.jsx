@@ -1,7 +1,7 @@
 import React from 'react'
 import Count from './Count'
 import Buttons from './Buttons'
-
+import Even from './Even'
 function Container() {
   
     return (
@@ -9,6 +9,7 @@ function Container() {
 <Count />
 <br />
 <Buttons />
+<Even />
    </>
   )
 }
